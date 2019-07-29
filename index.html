@@ -58,10 +58,19 @@
           </div>
   
         <div class="col-lg-8 mx-auto">
-          <h2>About Me</h2>
-          <p>Hello! I'm Travis Bare. I am finishing Vanderbilt Coding Bootcamp. I am learning to become a full-stack software developer. Here is an overview of the topics we have covered at Vanderbilt. They are: HTML, CSS, Javscript, JQuery, MySQL, MongoDB, Node, Express, and a little C#. I really enjoy problem solving, technology and computers. My first computer was a Commodore64 back in the 80s. (I had to save my files on cassette tape!) </p>
-            <p>Anyway, I got into engineering using computers and later into 3D modeling. I have been teaching CAD/3D modeling/Animation for over 20 years and decided to make a change by learning software development. </p>
-          <img src="./images/html.png"  alt="html icon pic" width="200" height="150">
+          <h2 class="heading">About</h2>
+          <br>
+          <p>Hello! I'm Travis Bare. I recently finished Vanderbilt Coding Bootcamp. I am learning to become a full-stack web developer. Here is an overview of the topics we have covered at Vanderbilt. They are: HTML, CSS, Javscript, JQuery, MySQL, MongoDB, Node, Express, React and a little C#. I really enjoy problem solving, technology and computers. My first computer was a Commodore64 back in the 80s. (I had to save my files on cassette tape!) </p>
+            <p>My career started by teaching engineering using computers and later morphed into 3D modeling and animation. I have been teaching CAD/3D modeling/Animation for over 20 years and decided to make a change by learning software development. </p>
+          <br>
+          <a class="links" target=_blank href="./images/BareResume7-24-19.pdf">Resume</a>
+          <br>
+          <br>
+          <hr>
+          <hr>
+          
+          
+            <img src="./images/html.png"  alt="html icon pic" width="200" height="150">
           <img src="./images/node.png" alt="html icon pic"  height="150">
           <img src="./images/mysql.png" alt="html icon pic" height="150">
           <img src="./images/mongodb.png" alt="html icon pic" height="150">
@@ -73,25 +82,37 @@
   <section id="services" class="bg-light">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>GitHub</h2>
-          <a  href="https://github.com/ronaldtbare">GitHub Profile</a>
+        <div class="col-lg-8 mx-auto projects">
+          
           <br>
-          <h2>Resume</h2>
-          <a  target=_blank href="./images/BareResume7-24-19.pdf">My Resume (pdf)</a>
+          <h2 class="heading">Projects</h2>
           <br>
           <br>
-          <h2>Check out some of my recent projects.</h2>
           <br>
         </div>
       </div>
       <div class="row">
-          <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
+
+        <div class="col-md-4">
+          <div class="card" style="width: 20rem;">
+              <img src="./images/psychic1.png" class="card-img-top" alt="psychic pic" height="250">
+              <div class="card-body">
+                <h5 class="card-title">Psychic Game</h5>
+                <p class="card-text">This game chooses a random letter for you to guess.</p>
+                <p class="card-text">Tech: HTML, CSS, JavaScript</p>
+                <a href="https://github.com/ronaldtbare/Psychic-Game" class="btn btn-primary" target=_blank>GitHub Repo</a>
+                <a href="https://ronaldtbare.github.io/Psychic-Game/" class="btn btn-primary" target=_blank>GitHub Pages</a>
+              </div>
+          </div>
+         </div>
+
+        <div class="col-md-4">
+            <div class="card" style="width: 20rem;">
                 <img src="./images/foodbanx1.png" class="card-img-top" alt="foodbanx pic" height="250">
                 <div class="card-body">
                   <h5 class="card-title">FoodBanx</h5>
                   <p class="card-text">This application makes meal planning easy.</p>
+                  <p class="card-text">Tech: HTML, CSS, Bootstrap, JavaScript, Jquery</p>
                   <a href="https://github.com/ronaldtbare/FoodBanx" class="btn btn-primary" target=_blank>GitHub Repo</a>
                     <a href="https://ronaldtbare.github.io/FoodBanx/" class="btn btn-primary" target=_blank>GitHub Pages</a>
                 </div>
@@ -99,40 +120,31 @@
            </div>
 
            <div class="col-md-4">
-              <div class="card" style="width: 18rem;">
-                  <img src="./images/psychic1.png" class="card-img-top" alt="psychic pic" height="250">
-                  <div class="card-body">
-                    <h5 class="card-title">Psychic Game</h5>
-                    <p class="card-text">This game chooses a random letter for you to guess.</p>
-                    <a href="https://github.com/ronaldtbare/Psychic-Game" class="btn btn-primary" target=_blank>GitHub Repo</a>
-                    <a href="https://ronaldtbare.github.io/Psychic-Game/" class="btn btn-primary" target=_blank>GitHub Pages</a>
-                  </div>
-              </div>
-             </div>
-
-             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="./images/trains1.png" class="card-img-top" alt="trains pic" height="250">
-                    <div class="card-body">
-                      <h5 class="card-title">Firebase Train Scheduler</h5>
-                      <p class="card-text">Calculates train schedules based on user input.</p>
-                      <a href="https://github.com/ronaldtbare/FirebaseTrains" class="btn btn-primary" target=_blank>GitHub Repo</a>
-                    <a href="https://ronaldtbare.github.io/FirebaseTrains/" class="btn btn-primary" target=_blank>GitHub Pages</a>
-                    </div>
+              <div class="card" style="width: 20rem;">
+                <img src="./images/giftastic.png" class="card-img-top" alt="giftastic pic" height="250">
+                <div class="card-body">
+                  <h5 class="card-title">GifTastic!</h5>
+                  <p class="card-text">A simple superhero animation retriever using an API.</p>
+                  <p class="card-text">Tech: HTML, CSS, Bootstrap, JavaScript, Jquery, AJAX</p>
+                  <a href="https://github.com/ronaldtbare/Giftastic" class="btn btn-primary" target=_blank>GitHub Repo</a>
+                  <a href="https://ronaldtbare.github.io/GifTastic/" class="btn btn-primary" target=_blank>GitHub Pages</a>
                 </div>
               </div>
+            </div>
       </div>
     </div>
 <br>
 <br>
+
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <div class="card" style="width: 18rem;">
+          <div class="card" style="width: 20rem;">
             <img src="./images/burgerScreenshot.PNG" class="card-img-top" alt="burger pic" height="250">
             <div class="card-body">
               <h5 class="card-title">Eat Da Burger</h5>
-              <p class="card-text">Burger logger with MySQL, Node, Express, and a homemade ORM.</p>
+              <p class="card-text">Burger logger with bacic CRUD operations.</p>
+              <p class="card-text">Tech: HTML, CSS, Node, Express, Handlebars, MySQL</p>
               <a href="https://github.com/ronaldtbare/burger" class="btn btn-primary" target=_blank>GitHub Repo</a>
               <a href="https://da-burgers.herokuapp.com/" class="btn btn-primary" target=_blank>Heroku</a>
             </div>
@@ -140,11 +152,12 @@
         </div>
     
         <div class="col-md-4">
-          <div class="card" style="width: 18rem;">
+          <div class="card" style="width: 20rem;">
             <img src="./images/servus.PNG" class="card-img-top" alt="servus pic" height="250">
             <div class="card-body">
               <h5 class="card-title">ServUs Nashville</h5>
               <p class="card-text">Volunteer meetup board using Nodejs, Express and MySQL</p>
+              <p class="card-text">Tech: HTML, CSS, Bootstrap, JavaScript, Jquery, MySQL, Heroku</p>
               <a href="https://github.com/ronaldtbare/project2" class="btn btn-primary" target=_blank>GitHub Repo</a>
               <a href="https://radiant-tor-14793.herokuapp.com/" class="btn btn-primary" target=_blank>Heroku</a>
             </div>
@@ -152,26 +165,30 @@
         </div>
 
         <div class="col-md-4">
-          <div class="card" style="width: 18rem;">
-            <img src="./images/giftastic.png" class="card-img-top" alt="giftastic pic" height="250">
-            <div class="card-body">
-              <h5 class="card-title">GifTastic!</h5>
-              <p class="card-text">A simple superhero animation retriever using an API.</p>
-              <a href="https://github.com/ronaldtbare/Giftastic" class="btn btn-primary" target=_blank>GitHub Repo</a>
-              <a href="https://ronaldtbare.github.io/GifTastic/" class="btn btn-primary" target=_blank>GitHub Pages</a>
+            <div class="card" style="width: 20rem;">
+                <img src="./images/trains1.png" class="card-img-top" alt="trains pic" height="250">
+                <div class="card-body">
+                  <h5 class="card-title">Firebase Train Scheduler</h5>
+                  <p class="card-text">Calculates train schedules based on user input.</p>
+                  <p class="card-text">Tech: HTML, CSS, Bootstrap, JavaScript, Jquery, Moment.js, Firebase</p>
+                  <a href="https://github.com/ronaldtbare/FirebaseTrains" class="btn btn-primary" target=_blank>GitHub Repo</a>
+                <a href="https://ronaldtbare.github.io/FirebaseTrains/" class="btn btn-primary" target=_blank>GitHub Pages</a>
+                </div>
             </div>
-          </div>
         </div>
+
+       
 <br>
 <br>
         <div class="container">
           <div class="row">
             <div class="col-md-4">
-              <div class="card" style="width: 18rem;">
+              <div class="card" style="width: 20rem;">
                 <img src="./images/booksearch.jpg" class="card-img-top" alt="book search pic" height="250">
                 <div class="card-body">
                   <h5 class="card-title">Goolge Book Search</h5>
                   <p class="card-text">Full-stack MERN application for searching books.</p>
+                  <p class="card-text">Tech: HTML, CSS, Bootstrap, JavaScript, Jquery, MongoDB, Express, React, Node</p>
                   <a href="https://github.com/ronaldtbare/booksearch" class="btn btn-primary" target=_blank>GitHub Repo</a>
                   <a href="https://travisbarebooksearch.herokuapp.com" class="btn btn-primary" target=_blank>Heroku</a>
                 </div>
@@ -186,7 +203,8 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2>Contact Me</h2>
+          <h2 class="heading">Contact</h2>
+         <br>
          <br>
           <h4>Address</h4>
           <p class="lead">Mount Juliet, TN 37122</p>
@@ -197,8 +215,13 @@
           <h4>Email</h4>
           <p class="lead">travisbare@gmail.com</p>
           <br>
-          <h4>LinkedIn</h4>
-          <a href="https://www.linkedin.com/in/ronaldtbare/">My LinkedIn Profile</a>
+          <a class="links" target=_blank href="https://www.linkedin.com/in/ronaldtbare/">LinkedIn</a>
+          <br>
+          <br>
+         
+          <a class="links"  target=_blank href="https://github.com/ronaldtbare">GitHub</a>
+          <br>
+          <br>
         </div>
       </div>
     </div>

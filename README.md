@@ -2,7 +2,7 @@
 by Travis Bare
 
 Technology
-HTML, CSS, Bootstrap, JavaScript, jquery
+HTML, CSS, Bootstrap, JavaScript, Jquery
 Live demo: https://ronaldtbare.github.io/Portfolio
 
 About
